@@ -6,7 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "imports": {
-    "#indirect": "./src/indirect.js"
+    "#indirect": {
+      "browser": "./src/indirect.b.js",
+      "default": "./src/indirect.js"
+    }
   },
   "keywords": [],
   "author": "",
