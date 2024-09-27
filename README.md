@@ -4,7 +4,7 @@ When using indirection via `imports` to import another file, the imported file
 is missing from the emit.
 
 ```
-rm -rf dist && tsc
+rm -rf dist && npx tsc
 ```
 
 - `direct.js` is emitted (even though it's not in `files`).

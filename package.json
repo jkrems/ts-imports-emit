@@ -5,6 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "exports": {
+    "./src/indirect.js": "./src/internal.js"
+  },
   "imports": {
     "#indirect": {
       "browser": "./src/indirect.b.js",
